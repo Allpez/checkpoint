@@ -27,6 +27,34 @@
     background-position: center;
 }
 
+/*
+Prueba de opacidad de la imagen de fondo con el pseudo elemento before (no funciono)
+.bgimg {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bgimg::before {
+    content:'';
+    background-image: url(../imgs/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.20;
+}
+ */
+
+
+
+
+
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +81,7 @@
 .link {
     display: flex;
     align-self: center;
+    justify-content: center;
     width: 25%;
     height: 4vh;
     text-decoration: none;
@@ -68,6 +97,7 @@
     border-radius: 50px;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 6px;
 }    
 
 .main {
@@ -183,6 +213,9 @@ tr, td {
     text-align: center;
 }
 
+.email {
+    color: black;
+}
 
 .footer {
     display: flex;
